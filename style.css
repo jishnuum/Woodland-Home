@@ -1,0 +1,393 @@
+/* HEADER FIRST  */
+
+.headerstart{
+    background-color: hsl(139.2 75% 18.8%);
+    padding: 10px;    
+}
+
+.headerstartmain a{
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: "Outfit", sans-serif;
+    text-decoration: none;
+    color: hsl(355.7 100% 97.3%);
+}
+
+
+
+/* HEADER SECOND */
+
+.firstform{
+    position: relative; 
+}
+
+.searchicon{
+    position: absolute;
+    right: 65px;
+    top: 5px;
+    width: 10px;
+}
+@media screen and (max-width:576px) {
+    .searchicon{
+        right: 256px;
+    }
+}
+
+.forminput{
+    width: 140px;
+}
+
+.lastheader img{
+    width: 80px;
+    height: 60px;
+}
+.nav-item a{
+    color: green;
+    font-family: "Outfit", sans-serif;
+    margin-right: 10px;
+}
+:-ms-input-placeholder{
+    color: green;
+}
+
+/* HEADER END */
+
+
+
+
+
+/* MAIN START */
+
+
+/* 6 CARDS SECTION */
+
+.sixcardsimg img{
+    border-radius: 0;
+    width: 100%;
+}
+.sixcardsimg{
+    margin-bottom: 25px;
+    position: relative;
+}
+.sixcardsbody{
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+}
+.sixcardsbody button{
+    border-radius: 0;
+    border: none;
+    padding: 7px 29px;
+}
+.sixcardsbody h4{
+    font-size: 25px;
+    margin-left: 10px
+}
+
+@media screen and (max-width:576px){
+    .sixcardsbody{
+        left: 125px;
+    }
+
+}
+.natureready img{
+    width: 100%;
+}
+.natureready{
+    position: relative;
+}
+.naturereadybody{
+    position: absolute;
+    bottom: 35px;
+    left: 30px;
+}
+.naturereadybody button{
+    border: none;
+    border-radius: 0;
+    padding: 13px;
+    background-color: hsl(139.2 75% 18.8%);
+    color: white;
+}
+
+@media screen and (max-width:576px){
+    .naturereadybody button{
+        padding: 4px;
+    }
+
+}
+
+/* SLIDING PRODUCT CARDS */
+
+.slidingcardone{
+    position: relative;
+}
+.offer{
+    position: absolute;
+    background-color: hsl(139.2 75% 18.8%);
+    color: white;
+    padding: 0 8px;
+    top: 10px;
+}
+@media screen and (max-width:576px){
+    .card4,.card2,.card3{
+        display: none;
+    }
+}
+
+/* MENS AND WOMENS CARDS */
+
+.mandwimg{
+    position: relative;
+    border: none;
+    border-radius: 0;
+}
+.mandwimg img{
+    width: 100%;
+    border-radius:0;
+}
+.mandwbody{
+    position: absolute;
+    bottom: 20px;
+    left: 35px;
+}
+
+
+.mandwbody button{
+    border: none;
+    border-radius: 0;
+    background-color: hsl(139.2 75% 18.8%);
+    color: white;
+    padding: 6px 20px;
+
+    
+}
+
+/* 4 CARDS */
+
+.fourcards{
+    border: none;
+    border-radius: 0;
+}
+.fourcards img{
+    width: 100%;
+    border-radius: 0;
+}
+.fivecards{
+    padding: 0 35px;
+}
+.spacebar{
+    gap: 200px;
+    
+}
+.spacebar h6{
+    font-size: 14px;
+}
+.fivecards .bodycard{
+    text-align: start;
+}
+
+@media screen and (max-width:576px){
+    .spacebar{
+        gap: 165px;
+    }
+    .fivecards{
+        padding: 0 20px;
+    }
+
+}
+
+/* FULL LENGTH IMAGE */
+
+.fulllengthimg img{
+    width: 100%;
+}
+.fulllengthimg{
+    position: relative;
+}
+.fulllengthimgbody{
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+}
+.fulllengthimgbody button{
+    border: none;
+    border-radius: 0;
+    background-color: hsl(139.2 75% 18.8%);
+    color: white;
+    padding: 6px 20px;
+
+}
+
+@media screen and (max-width:576px){
+    .fulllengthimgbody{
+        position: absolute;
+        bottom: 5px;
+        left: 30px;
+    }
+    .fulllengthimgbody button{
+        padding: 1px 10px;
+    }
+}
+
+/* THREE CARD */
+
+.threecardimg{
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    position: relative;
+}
+.threecardimg img{
+    border-radius: 0;
+    filter: brightness(80%);
+}
+.threecardbody{
+    position: absolute;
+    bottom: 16px;
+    left: 150px;
+}
+.threecardbody button{
+    padding: 6px 26px;
+    border: 2px solid;
+    border-radius: 0;
+}
+.threecardbody h3{
+    margin-left: -20px;
+}
+
+@media screen and (max-width:576px){
+    .threecardbody{
+        left: 120px;
+    }
+    .threecardbody h3{
+        margin-left: -5px;
+    }
+
+}
+
+/* FIVE CARDS */
+
+.words h6{
+    font-size: 20px;
+}
+@media screen and (max-width:576px){
+    .words{
+        font-size: 10px;
+    }
+}
+
+.fiveecards{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 9px;
+}
+
+/* LAST TWO CARDS */
+
+.lasttwocard{
+    border: none;
+    border-radius: 0;
+    position: relative;
+    padding:8px 5px;
+    padding-bottom: 0;
+}
+.lasttwocard img{
+    border-radius: 0;
+    filter: brightness(85%);
+}
+.lasttwocard .card-body{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+.lasttwocard .card-body button{
+    border-radius: 0;
+    padding: 6px 15px;
+    
+    border: none;
+    background-color: hsl(139.2 75% 18.8%);
+
+}
+
+@media screen and (max-width:576px){
+    .lasttwocard .card-body{
+        left: 30px;
+    }
+    .lasttwocard img{
+        width: 100%;
+    }
+
+
+}
+
+/* FOOTER */
+
+footer{
+    padding: 60px 30px;
+    background-color: hsl(139.2 75% 18.8%);
+    color: white;
+}
+footer img{
+    width: 90px;
+    height: 60px;
+}
+footer .cards ul{
+    padding-left: 0;
+}
+
+footer .cards ul li{
+    list-style: none;
+    text-align: start;
+    
+}
+.smaller{
+    font-size: 13px;
+}
+.smaller input{
+    padding-right: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.icons{
+    
+    padding-right: 50px;
+}
+.leftlinks li{
+    list-style: none;
+    font-size: 13px;
+    
+}
+.leftlinks ul{
+    display: flex;
+    padding: 0;
+    gap: 50px;
+}
+.rightlinks p{
+    font-size: 13px;
+}
+.footlinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:576px){
+    .footlinks{
+        flex-direction: column;
+    }
+    .leftlinks ul{
+        flex-direction: column;
+        gap: 4px;
+    }
+    footer{
+        padding-left: 20px;
+    }
+
+}
+
+
+
+
+
+
+
